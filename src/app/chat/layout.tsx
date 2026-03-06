@@ -1,8 +1,10 @@
+import ChatPage from "./page";
+
 export default function ChatLayout({ children }: { children: React.ReactNode }) {
   return (
-    <section style={{ padding: '2rem' }}>
+    <section>
       {/* Add chat-specific navigation or sidebar here if needed */}
-      {children}
+      <ChatPage />
     </section>
   );
 }
